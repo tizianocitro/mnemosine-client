@@ -1,3 +1,3 @@
-# MnemosineWebApp
+# Mnemosine Web Application
 
-Applicazione web per Mnemosine, microservizio realizzato come progetto per il corso di Cloud Computing.
+Applicazione web per Mnemosine: microservizio per la gestione di storage su Azure realizzato per il progetto di Cloud Computing.
