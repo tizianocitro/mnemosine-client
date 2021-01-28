@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { homeUrl } from '../consts/consts';
 
 @Component({
   selector: 'app-navbar',
@@ -9,6 +10,7 @@ import { Router } from '@angular/router';
 export class NavbarComponent implements OnInit {
 
   @Input() title: string;
+  public homeUrl: string = homeUrl;
 
   constructor(private router: Router) { }
 

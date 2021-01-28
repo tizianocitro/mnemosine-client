@@ -48,8 +48,4 @@ export class GroupComponent implements OnInit {
   goToAccounts(groupName: string): void {
     this.router.navigate(['/accounts', groupName]);
   }
-
-  goToAllAccounts() {
-    this.router.navigate(['/all-accounts']);
-  }
 }

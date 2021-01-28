@@ -64,10 +64,6 @@ export class AccountComponent implements OnInit {
     this.router.navigate(['/groups']);
   }
 
-  goToAllAccounts() {
-    this.router.navigate(['/all-accounts']);
-  }
-
   formatDate(date: string): string {
     let t = date.indexOf("T");
     let tCharacter = date.charAt(t);

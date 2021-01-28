@@ -32,19 +32,7 @@
                 </div>
             </div>
 
-            <div class="row px-3 py-3"><h3>Gestisci</h3></div>
-
-            <div class="row px-3">
-                <ul class="list-group">
-                    <li class="list-group-item list-group-item-action">
-                        <a (click)="goToGroups()" class="no-und text-secondary">I miei gruppi di risorse</a>
-                    </li>
-                    <li class="list-group-item list-group-item-action">
-                        <a (click)="goToAllAccounts()" class="no-und text-secondary">I miei account di archiviazione</a>
-                    </li>                    
-                </ul>
-            </div>
-            
+            <app-sidebar></app-sidebar>
         </div>
         
         <div class="col-lg-9 py-3">
@@ -71,8 +59,8 @@
                 <div class="row">
                     <div *ngFor="let container of containersList.data.containers">
                         <div class="col-lg-4 col-md-6 mb-4">
-                            <button type="button" class="btn btn-light bg-white btn-lg border-secondary">
-                                <button (click)="goToBlobs(container.containerName)" type="button" class="btn btn-light bg-white btn-lg border-white">
+                            <button style="width: 380px; height: 85px;" type="button" class="btn btn-light bg-white btn-lg border-secondary">
+                                <button style="width: 250px; overflow: auto;" (click)="goToBlobs(container.containerName)" type="button" class="btn btn-light bg-white btn-lg border-white">
                                     <span class="btn-group">
                                         <span class="fs badge bg-white border-white border-0">
                                             <i class="fas fa-folder"></i>

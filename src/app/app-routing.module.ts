@@ -7,10 +7,12 @@ import { BlobComponent } from './blob/blob.component';
 import { WaitBlobComponent } from './blob/wait-blob/wait-blob.component';
 import { ContainerComponent } from './container/container.component';
 import { WaitContainerComponent } from './container/wait-container/wait-container.component';
+import { FooterComponent } from './footer/footer.component';
 import { GroupComponent } from './group/group.component';
 import { WaitGroupComponent } from './group/wait-group/wait-group.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full'},
@@ -42,4 +44,6 @@ export const routingComponents = [GroupComponent,
                                   WaitBlobComponent,
                                   AllAccountComponent,
                                   NavbarComponent,
+                                  FooterComponent,
+                                  SidebarComponent,
                                   NotFoundComponent]

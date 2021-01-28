@@ -112,10 +112,6 @@ export class BlobComponent implements OnInit {
     this.router.navigate(['/groups']);
   }
 
-  goToAllAccounts() {
-    this.router.navigate(['/all-accounts']);
-  }
-
   goToAccountsByGroup() {
     this.router.navigate(['/accounts', this.groupName]);
   }
