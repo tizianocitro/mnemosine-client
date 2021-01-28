@@ -1,6 +1,6 @@
 export const baseUrl = "https://mnemosine.azurewebsites.net/";
 export const localBaseUrl = "http://localhost:8080/mnemosine/";
-export const homeUrl = "https://mnemosinewepapp.azurewebsites.net/";
+export const homeUrl = "https://mnemosinewebapplication.azurewebsites.net/";
 export const localHomeUrl = "http://localhost:4200/";
 
 export const clientId = "d6598c30-28ee-4b87-91e5-4644e58b9042";
