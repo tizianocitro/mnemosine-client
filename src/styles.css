@@ -31,3 +31,7 @@ a.no-und:active {
 .new-icon {
     color: #32CD32;
 }
+
+.no-arrow::after {
+    content: none;
+}
